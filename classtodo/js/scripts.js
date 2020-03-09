@@ -18,6 +18,7 @@ form.addEventListener('submit', function (event) {
       <li>
           <input type="checkbox">
           `+ newTask.value +`
+          <button>Delete</button>
         </li>
     `;
 
