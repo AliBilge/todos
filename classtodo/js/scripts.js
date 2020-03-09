@@ -31,5 +31,9 @@ form.addEventListener('submit', function (event) {
 
       // Delete THIS clicked checkbox.
       li.removeChild(this);
+
+      // Move the LI to our completed UL.
+      completedList.appendChild(li);
+
     });
 });
