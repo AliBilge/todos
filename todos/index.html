@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            TODO LIST
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+        <!-- Script(s): -->
+        <script type="text/javascript" src="js/todo.js" defer></script>
+
+    </head>
+    <body>
+        <h1>JavaScript To-Do List</h1>
+        <section class="add">
+        <form id="table-form" action="#" method="GET">
+            <h3>Add to To-Dos</h3>
+                <label for="new-task">Enter Task:</label>
+                <input type="text" name="task" id="new-task" placeholder="Enter taks here">
+                <button type="submit">Add To-Do</button>
+        </form>
+            <h3>Active To-Dos</h3>
+            <ul id="incomplete-tasks">
+                <li><input type="checkbox"> <label>Take out trash</label></li>
+                <li><input type="checkbox"> <label>Make lesson plan</label></li>
+            </ul>
+        </section>
+        <!--Completed list starts here-->
+        <section class="completed">
+            <h3>Completed</h3>
+            <ul id="completed-tasks">
+                <li>Buy milk</li>
+            </ul>
+
+        </section>   
+    </body>
+</html>
